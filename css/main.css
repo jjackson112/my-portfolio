@@ -108,10 +108,10 @@
 
    header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: row nowrap;
     padding: 15px 0;
-    width: 85%;
+    width: 90%;
    }
 
    header nav ul li {
@@ -146,10 +146,6 @@
     padding: 40px 20px;
    }
 
-   .project-item figure {
-    border: #F4BEDC solid 3px;
-   }
-
    .link-button {
     background: #351d77;
     color: #E8F0E4;
@@ -168,12 +164,6 @@
     align-items: center;
     flex-direction: column;
     padding: 20px 20px;
-   }
-
-   #learned .content-wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
    }
 
    .about-photo img {
@@ -244,7 +234,7 @@
   }
 
   ul, ol {
-    font-size: .75em;
+    font-size: .7em;
     margin: 0;
     list-style: none;
     text-transform: none;
@@ -264,12 +254,17 @@
     }
 
     img {
-    max-width: 100%;
-    height: auto;
-  }
+      max-width: 60%;
+      max-height: 75%;
+      margin: 0;
+    }
   
     figure {
     margin: 0;
+  }
+
+  .contain {
+    object-fit: contain;
   }
 
     h3 {
@@ -282,6 +277,10 @@
     font-size: 1.25em;
     }
   
+    .project-item img {
+      border: #F4BEDC solid 3px;
+     }
+
     p.project-item-description {
     font-size: 1em;
     line-height: 1.5;
@@ -387,16 +386,113 @@
 
   /* Tablet Styles */
 
-  @media only screen and (min-width: 768px) {
-    /* Style adjustments for viewports that meet the condition */
-  
+  @media (min-width: 768px) {
+
+   /*Header */
+
+    .name-intro {
+      max-width: 90%;
+    }
+
+    .intro-text {
+      max-width: 100%;
+    }
+
+    header nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row nowrap;
+      padding: 15px 0;
+      width: 80%;
+     }  
+
+     /* Projects*/
+
+     .project-item img {
+      border: #F4BEDC solid 5px;
+     }
+
+     /* Skills */
+
+     h3 {
+      text-align: center;
+      font-size: 2.25em;
+     }
+
+     #learned .content-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row nowrap;
+     }
+
+     h4 {
+      font-size: 1.65em;
+     }
+
+     .skill, .tool {
+      font-size: 1.33em;
+     }
+
+     /* About */
+     .about-photo img {
+      border: #F4BEDC solid 5px;
+     }
+
+     .about-info p {
+      font-size: 1.2em;
+      line-height: 1.5;
+     }
+
+    /* Footer */
+
+    footer .content-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row nowrap;
+    }
+
+    address {
+      font-style: normal;
+    }
+
+    footer address p {
+      font-size: 1.3em;
+    }
+
+    footer .social-media-icons, .email-icon {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row nowrap;
+      text-decoration: none;
+      }
     
+      footer .social-media-icons p, .email-icon p {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+      }
+  
+      footer .social-media-icons p i, .email-icon p i {
+          font-size: 1.5em;
+      }
+
+      .copyright {
+        font-size: 1.1em;
+      }
+  }
+
+  
   
   /* Desktop Styles */
   
-  @media only screen and (max-width: 1200px) {
+  @media screen and (min-width: 1200px) {
   
-   
+ 
+  }
   
   @media print,
     (-webkit-min-device-pixel-ratio: 1.25),

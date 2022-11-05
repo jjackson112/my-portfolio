@@ -153,7 +153,7 @@
     padding: 20px 20px;
     font-size: .75em;
     text-transform: uppercase;
-    border-radius: 70px;
+    border-radius: 75px;
     height: 50px;
     width: 60px;
    }
@@ -410,6 +410,16 @@
      }  
 
      /* Projects*/
+    .project-list {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      flex-flow: row wrap;
+    }
+
+    .project-item {
+      width: 40%;
+    }
 
      .project-item img {
       border: #F4BEDC solid 5px;

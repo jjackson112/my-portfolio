@@ -390,14 +390,13 @@
 
    /*Header */
 
-    .name-intro {
-      max-width: 90%;
-    }
-
-    .intro-text {
-      max-width: 100%;
-      padding-bottom: 15px;
-    }
+   .intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row wrap;
+    width: 93%;
+  }
 
     header nav ul {
       display: flex;
@@ -504,13 +503,15 @@
   @media screen and (min-width: 1200px) {
   /*Header */
 
-  .name-intro {
-    max-width: 100%;
+  .intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row wrap;
   }
 
-  .intro-text {
-    max-width: 100%;
-    padding-bottom: 15px;
+  .name-intro {
+    width: 95%;
   }
 
   header nav ul {
@@ -520,7 +521,7 @@
     flex-flow: row nowrap;
     padding: 15px 0;
     width: 100%;
-    font-size: .8em;
+    font-size: 1em;
    }  
 
    /* Projects*/
@@ -559,7 +560,7 @@
 
    .skill, .tool {
     font-size: 1.6em;
-    line-height: ;
+    line-height: 1;
    }
 
    /* About */
@@ -586,7 +587,7 @@
   }
 
   footer address p {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   footer .social-media-icons, .email-icon {
@@ -598,17 +599,17 @@
     }
   
     footer .social-media-icons p, .email-icon p {
-      border-radius: 50%;
-      height: 50px;
-      width: 50px;
+      border-radius: 75%;
+      height: 70px;
+      width: 70px;
     }
 
     footer .social-media-icons p i, .email-icon p i {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .copyright {
-      font-size: 1.4em;
+      font-size: 1.5em;
     }
 }
  

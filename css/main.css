@@ -171,15 +171,15 @@
    }
 
    .skills-content-list p, .tools-list p {
-      background: #F4BEDC;
-      color: #351d77;
+      background: #351D77;
+      color: #F4BEDC;
       text-decoration: none;
       padding: 10px 5px;
       text-transform: uppercase;
       height: 40px;
       width: 200px;
       font-size: .9em;
-      border: #351D77 solid 3px;
+      border: #F4BEDC solid 3px;
    }
 
    .about-photo img {
@@ -460,7 +460,7 @@
      }
 
      .skills-content-list p, .tools-list p {
-      border: #351D77 solid 4px;
+      border: #F4BEDC solid 4px;
      }
 
      .skill, .tool {
@@ -580,7 +580,7 @@
    }
 
    .skills-content-list p, .tools-list p {
-    border: #351D77 solid 5px;
+    border: #F4BEDC solid 5px;
  }
 
    .skill, .tool {

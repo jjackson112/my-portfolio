@@ -1,6 +1,5 @@
 let test = document.getElementById("#test");
 let bright = document.getElementById("#bright");
-let light = document.getElementById(".social-media-icons");
 
 test.addEventListener("mouseover", function(e) {
 
@@ -15,14 +14,6 @@ test.addEventListener("mouseover", function(e) {
 
 bright.addEventListener("mouseover", function(e) {
   e.target.style.color = "#E8F0E4";
-
-  setTimeout(function() {
-    e.target.style.color = "";
-  }, 1000);
-}, false);
-
-light.addEventListener("mouseover", function(e) {
-  e.target.style.color = "#EEE4F0";
 
   setTimeout(function() {
     e.target.style.color = "";

@@ -394,7 +394,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
     width: 93%;
   }
 
@@ -507,7 +507,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
   }
 
   .name-intro {
@@ -612,8 +612,6 @@
       font-size: 1.5em;
     }
 }
- 
-  }
   
   @media print,
     (-webkit-min-device-pixel-ratio: 1.25),
@@ -695,3 +693,4 @@
     h3 {
       page-break-after: avoid;
     }
+  }

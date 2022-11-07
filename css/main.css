@@ -158,12 +158,28 @@
     width: 60px;
    }
 
+   .link-button:hover {
+    background-color: #F4BEDC;
+  }
+
    #learned .content-wrapper, #bio .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px 20px;
+   }
+
+   .skills-content-list p, .tools-list p {
+      background: #F4BEDC;
+      color: #351d77;
+      text-decoration: none;
+      padding: 10px 5px;
+      text-transform: uppercase;
+      height: 40px;
+      width: 200px;
+      font-size: .9em;
+      border: #351D77 solid 3px;
    }
 
    .about-photo img {
@@ -270,6 +286,7 @@
     h3 {
     font-family: 'Gelasio', serif;
     font-size: 1.75em;
+    text-align: center;
     }
 
     h4 {
@@ -442,6 +459,10 @@
       font-size: 1.65em;
      }
 
+     .skills-content-list p, .tools-list p {
+      border: #351D77 solid 4px;
+     }
+
      .skill, .tool {
       font-size: 1.33em;
      }
@@ -557,6 +578,10 @@
    h4 {
     font-size: 1.9em;
    }
+
+   .skills-content-list p, .tools-list p {
+    border: #351D77 solid 5px;
+ }
 
    .skill, .tool {
     font-size: 1.6em;

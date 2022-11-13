@@ -280,7 +280,7 @@
     }
 
     img {
-      max-width: 60%;
+      max-width: 80%;
       max-height: 75%;
       margin: 0;
     }
@@ -315,6 +315,10 @@
 
     .about-info {
       padding: 10px 25px;
+    }
+
+    .about-info p {
+    text-align: justify;
     }
 
     span {
@@ -634,6 +638,7 @@
    .about-info p {
     font-size: 1.5em;
     line-height: 1.75;
+    padding: 0 30px;
    }
 
   /* Footer */

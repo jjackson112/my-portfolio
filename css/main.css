@@ -274,6 +274,11 @@
     margin: 0;
     }
 
+    .intro-text {
+      padding-top: 20px;
+      padding-bottom: 35px;
+    }
+
     img {
       max-width: 60%;
       max-height: 75%;
@@ -306,6 +311,10 @@
     p.project-item-description {
     font-size: 1em;
     line-height: 1.65;
+    }
+
+    .about-info {
+      padding: 10px 25px;
     }
 
     span {
@@ -481,8 +490,16 @@
      }
 
      /* About */
+
+     #bio .content-wrapper {
+     display: flex;
+     justify-content: space-around;
+     flex-flow: row wrap;
+    }
+
      .about-photo img {
       border: #F4BEDC solid 5px;
+      width: 85%;
      }
 
      .about-info p {

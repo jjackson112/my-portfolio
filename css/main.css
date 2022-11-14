@@ -307,23 +307,29 @@
   
     .project-item img {
       border: #F4BEDC solid 3px;
-     }
+    }
 
     p.project-item-description {
     font-size: 1em;
     line-height: 1.65;
+    text-align: left;
+    }
+
+    .project-item p {
+    text-align: left;
     }
 
     .about-info {
-      padding: 10px 25px;
+    padding: 10px 25px;
     }
 
     .about-info p {
     text-align: justify;
     }
 
-    span {
+    .project-item span {
       font-size: 1.15em;
+      font-weight: 800;
     }
 
     address {
@@ -453,15 +459,23 @@
      }  
 
      /* Projects*/
+
+     #work .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+     }
+  
+
     .project-list {
       display: flex;
       justify-content: space-around;
-      text-align: center;
+      align-items: flex-start;
       flex-flow: row wrap;
     }
 
     .project-item {
-      width: 35%;
+      width: 40%;
     }
 
      .project-item img {
@@ -592,12 +606,12 @@
   .project-list {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: flex-start;
     flex-flow: row wrap;
   }
 
   .project-item {
-    width: 25%;
+    width: 35%;
   }
 
    .project-item img {

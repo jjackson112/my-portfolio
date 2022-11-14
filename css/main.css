@@ -508,7 +508,8 @@
 
      .about-info p {
       font-size: 1.2em;
-      line-height: 1.5;
+      line-height: 1.6;
+      padding: 0 30px;
      }
 
     /* Footer */
@@ -640,7 +641,7 @@
    .about-info p {
     font-size: 1.5em;
     line-height: 1.75;
-    padding: 0 30px;
+    padding: 0 80px;
    }
 
   /* Footer */
